@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    tools:context=".RemotetempActivity" >
+
+    <TextView
+        android:id="@+id/TV_prompt"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="15sp"
+        android:text="@string/prompt" 
+        android:layout_alignTop="@+id/button_up"
+        android:focusable="false"/>
+	
+	<TextView
+        android:id="@+id/TV_data"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:text="@string/prompt_direction" 
+        android:layout_alignTop="@+id/button_up"
+        android:layout_centerHorizontal="true" 
+        android:focusable="false"/>
+
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/front"
+        android:textColor="#d144d1"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_below="@+id/button_up"
+        android:layout_toLeftOf="@+id/button_down"
+        android:text="@string/left"
+        android:textColor="#d144d1"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_alignBottom="@+id/button_left"
+        android:layout_toRightOf="@+id/button_down"
+        android:text="@string/right"
+        android:textColor="#d144d1"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button_center"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_alignBottom="@+id/button_left"
+        android:layout_alignLeft="@+id/button_down"
+        android:text="@string/stop"
+        android:textColor="#ff1a1a"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_down"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_alignLeft="@+id/button_up"
+        android:layout_below="@+id/button_right"
+        android:text="@string/back"
+        android:textColor="#d144d1"
+        android:textSize="35sp" />
+
+
+	<Button
+        android:id="@+id/button_up1"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="430dp"
+        android:layout_alignTop="@+id/button_up"
+        android:text="@string/front"
+        android:textColor="#d144d1"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button_left1"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_below="@+id/button_up1"
+        android:layout_toLeftOf="@+id/button_down1"
+        android:text="@string/left"
+        android:textColor="#d144d1"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button_right1"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_alignBottom="@+id/button_left1"
+        android:layout_toRightOf="@+id/button_down1"
+        android:text="@string/right"
+        android:textColor="#d144d1"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button_center1"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_alignBottom="@+id/button_left1"
+        android:layout_alignLeft="@+id/button_down1"
+        android:text="@string/stop"
+        android:textColor="#ff1a1a"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_down1"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_alignLeft="@+id/button_up1"
+        android:layout_below="@+id/button_right1"
+        android:text="@string/back"
+        android:textColor="#d144d1"
+        android:textSize="35sp" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标题、菜单信息 -->
+    <string name="app_name">wifi遥控</string>
+    <string name="action_about"> 关于软件 </string>
+    <string name="action_search"> 连接服务器 </string>
+    <string name="action_exit"> 退出程序  </string>
+    <string name="prompt">IP：192.168.123.169\nPORT:8080\n状态：未连接 </string>
+    <string name="prompt_direction">数据:\n</string>    
+    <!-- 软件说明 -->
+    <string name="APP_improve">作者:黄城东 QQ:384710930</string>
+    <string name="APP_order">第一组（左边）按键命令代码:</string>
+    <string name="APP_order1">第二组（右边）按键命令代码:</string>
+    <!-- button text -->
+    <string name="front">↑</string>
+    <string name="back">↓</string>
+    <string name="left">←</string>
+    <string name="right">→</string>
+    <string name="stop"> s </string>
+</resources>
